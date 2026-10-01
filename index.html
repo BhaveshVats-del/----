@@ -20,9 +20,18 @@ body{
   </h1>
   <h2 id= count>0</h2>
   <div class = "button">
-  <button id="decrease"> Decrease </button>
-  <button id="reset"> Reset </button>
-  <button id="increase"> Increase </button>
+  <button id="decreaseBtn"> Decrease </button>
+  <button id="resetBtn"> Reset </button>
+  <button id="increaseBtn"> Increase </button>
   </div>
+  </div>
+  <script>
+    const countDisplay=document.getElementbyId("count")
+    const decreaseBtn=document.getElementbyId("decreaseBtn")
+    const increaseBtn=document.getElementbyId("increaseBtn")
+    const resetBtn=document.getElementId("resetBtn")
+    increaseBtn.addEventListner('click',() => {
+      count.a=Number(count.a)+1
+  </script>
 </body> 
 </html>
